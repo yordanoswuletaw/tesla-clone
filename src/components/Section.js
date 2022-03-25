@@ -17,7 +17,7 @@ function Section({ carProps }) {
           <LeftButton>{leftBtnText}</LeftButton>
           {rightBtnText && <RightButton>{rightBtnText}</RightButton>}
         </ButtonGroup>
-        <DownArrow src="/images/down-arrow.svg" />
+        <DownArrow src="/tesla-clone/images/down-arrow.svg" />
       </Button>
     </Wrap>
   );
@@ -28,7 +28,7 @@ export default Section;
 const Wrap = styled.div`
   width: 100%;
   height: 100vh;
-  background: orange ${(props) => `url("/images/${props.bgImage}")`} no-repeat
+  background: orange ${(props) => `url("/tesla-clone/images/${props.bgImage}")`} no-repeat
     center;
   background-size: cover;
   display: flex;
